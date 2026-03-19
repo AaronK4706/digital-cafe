@@ -13,32 +13,8 @@ header {
 	color: white;
 }
 
-.wrapper {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	min-height: 100vh;
-}
-
-.container {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
 footer div {
 	background: black;
 	text-align: center;
 	color: white;
-}
-
-.popup {
-	position: absolute;
-	padding: 8px;
-	border: 1px solid red;
-	background: rgb(255, 180, 180);
-	width: 300px;
-	top: 50%;
-	transform: translateY(-50%);
-	font-family: sans-serif;
 }
