@@ -1,24 +1,32 @@
 <!doctype html>
-<html lang="en">
+<html>
 	<head>
 		<title>The Digital Cafe</title>
-		<link href="style.css" rel="stylesheet" />
-		<script src="script.js"></script>
+		<style>
+			* {
+				box-sizing: border-box;
+			}
+
+			body {
+				padding: 0;
+				margin: 0;
+			}
+		</style>
 	</head>
 	<body>
-		<header>
+		<div style="background: black; text-align: center; color: white">
 			<div>The Digital Cafe</div>
-		</header>
-		<main>
+		</div>
+		<div>
 			<section>
 				<h1>The Digital Cafe</h1>
-				<p><em>Serving digital drinks since 2026</em></p>
+				<p>Serving digital drinks since 2026</p>
 			</section>
 			<section>
 				<h2>Our Menu</h2>
 				<p>Click a menu item to see the price in a popup:</p>
 				<ul>
-					<li onclick="showPrice('coffee')">Coffee</li>
+					<li>Coffee</li>
 					<li>Tea</li>
 					<li>Juice</li>
 					<li>Water</li>
@@ -28,9 +36,20 @@
 				<h2>Under construction</h2>
 				<p>This section is under construction.</p>
 			</section>
-		</main>
-		<footer>
+		</div>
+		<div style="background: black; text-align: center; color: white">
 			<div>Copyright 2026, The Digital Cafe</div>
-		</footer>
+		</div>
 	</body>
+
+	<script>
+		const prices = {
+			coffee: 1.25,
+			tea: 1.0,
+		};
+
+		function showPrice() {
+			alert("Hmmm, seems like this function needs work!");
+		}
+	</script>
 </html>
